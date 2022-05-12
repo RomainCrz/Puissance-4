@@ -6,10 +6,10 @@
 body {
   display: flex;
   flex-direction: column;
-
+  padding: 0;
+  margin: 0;
   align-items: center;
-  height: 100vh;
-  padding-top: 20px;
+  height: 700px;
 }
 
 h2 {
@@ -70,11 +70,11 @@ li {
 
 .rouge {
   background: red;
-  transition: transform 1s;
+  transition: transform 1.5s;
   z-index: -10;
 }
 .jaune {
   background: yellow;
-  transition: transform 1s;
+  transition: transform 1.5s;
   z-index: -10;
 }
